@@ -1,0 +1,51 @@
+========================
+      About ApexFetch
+========================
+
+ApexFetch is a lightweight system info fetcher for Linux, inspired by Neofetch. 
+It displays detailed information about your system, including:
+
+- Distribution & Kernel
+- CPU info
+- Memory usage
+- GPU info
+- Network interfaces
+- Package manager detection
+
+------------------------
+Installation & Quick Run
+------------------------
+
+No need to chmod manually, just do:
+
+1. Clone the repository:
+   git clone https://github.com/Linuxawy/apexfetch.git
+
+2. Go to the project folder:
+   cd apexfetch/apexfetch_py
+
+3. Create and activate a virtual environment:
+   python3 -m venv venv --copies
+   source venv/bin/activate
+
+4. Install dependencies:
+   pip install --upgrade pip
+   pip install psutil
+
+5. Copy the script to your bin folder (no chmod needed):
+   cp apexfetch.py ~/bin/apexfetch
+
+6. Ensure ~/bin is in your PATH:
+   echo 'export PATH="$HOME/bin:$PATH"' >> ~/.bashrc
+   source ~/.bashrc
+
+7. Run it anywhere:
+   apexfetch
+
+------------------------
+Author & Maintainer
+------------------------
+Linuxawy - Palestinian Developer
+GitHub: https://github.com/Linuxawy
+
+========================

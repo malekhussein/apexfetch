@@ -18,6 +18,10 @@ It was programmed specifically for a certain person named encrypted **A...** ðŸ•
 ---
 
 # installing:
+```bash
+git clone https://github.com/malekhussein/apexfetch.git
+cd apexfetch/
+```
 
 ```bash
 python3 -m venv --copies venv

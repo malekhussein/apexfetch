@@ -18,20 +18,7 @@ It was programmed specifically for a certain person named encrypted **A...** ðŸ•
 ---
 
 # installing:
-```bash
-python -m venv venv --copies
-source venv/bin/activate.fish
-```
-```bash
-set -U fish_user_paths $HOME/bin $fish_user_paths
-```
-```bash
-python3 -m venv --copies venv
-# if Fish
-source venv/bin/activate.fish
-# if Bash
-source venv/bin/activate
-```
+
 ```bash
 python3 -m venv --copies venv
 # if Bash
@@ -40,7 +27,6 @@ source venv/bin/activate
 source venv/bin/activate.fish
 pip install --upgrade pip
 pip install psutil colorama
-
 ```
 ```bash
 mkdir -p ~/bin

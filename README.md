@@ -31,6 +31,9 @@ sudo pacman -Syu python python-pip --noconfirm
 ```
 
 # Installation & Usage
+```bash
+cd apexfetch_py
+```
 
 # Create virtual environment
 ```bash

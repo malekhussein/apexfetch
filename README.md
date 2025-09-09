@@ -17,48 +17,6 @@ It was programmed specifically for a certain person named encrypted **A...** ðŸ•
 
 ---
 
-## Installing Python and pip
-
-### On **Ubuntu / Debian**
-```bash
-sudo apt update
-sudo apt install python3 python3-venv python3-pip -y
-```
-
-### On Arch Linux
-```bash
-sudo pacman -Syu python python-pip --noconfirm
-```
-
-# Installation & Usage
-```bash
-cd apexfetch_py
-```
-
-# Create virtual environment
-```bash
-python3 -m venv venv --copies
-source venv/bin/activate
-```
-# Upgrade pip and install psutil
-```bash
-pip install --upgrade pip
-pip install psutil
-```
-# Copy apexfetch script to ~/bin
-```bash
-cp apexfetch.py ~/bin/apexfetch
-```
-# Add ~/bin to PATH
-```bash
-echo 'export PATH="$HOME/bin:$PATH"' >> ~/.bashrc
-source ~/.bashrc
-```
-# Run ApexFetch
-```bash
-apexfetch
-```
-
 # Notes
 This is an experimental version, it may contain bugs.
 

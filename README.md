@@ -5,8 +5,6 @@
 ApexFetch is a tool similar to **Neofetch**, developed by **Linuxawy**.  
 It was programmed specifically for a certain person named encrypted **A...** 🕵️‍♂️  
 
-> ⚠️ This project is **experimental**. The current version is written in **Python**, and an official **C version** will be released later.
-
 ---
 
 ## Requirements

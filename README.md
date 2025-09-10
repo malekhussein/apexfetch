@@ -46,6 +46,6 @@ apexfetch
 # Notes
 This is an experimental version, it may contain bugs.
 
-The official C version will be faster and more stable.
+The official C++ version will be faster and more stable.
 
 You can customize or modify the script as needed.
